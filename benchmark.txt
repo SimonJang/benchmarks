@@ -1,0 +1,16 @@
+
+> benchmarks@0.0.0 bench /home/simon/Desktop/projects/toolbox/benchmarks
+> npx ts-node ./source/index.ts
+
+old findSharedParent -- 2 file paths x 2,639,170 ops/sec ±1.73% (89 runs sampled)
+new findSharedParent -- 2 file paths x 2,856,072 ops/sec ±0.76% (94 runs sampled)
+old findSharedParent -- 3 file paths x 2,169,757 ops/sec ±1.45% (90 runs sampled)
+new findSharedParent -- 3 file paths x 1,725,058 ops/sec ±1.74% (89 runs sampled)
+old findSharedParent -- 4 file paths x 1,462,657 ops/sec ±5.49% (80 runs sampled)
+new findSharedParent -- 4 file paths x 1,482,671 ops/sec ±2.50% (85 runs sampled)
+old findSharedParent -- 5 file paths x 1,528,865 ops/sec ±1.26% (84 runs sampled)
+new findSharedParent -- 5 file paths x 1,513,290 ops/sec ±1.48% (89 runs sampled)
+old findSharedParent -- 10 file paths x 1,010,141 ops/sec ±1.03% (93 runs sampled)
+new findSharedParent -- 10 file paths x 1,196,729 ops/sec ±1.60% (89 runs sampled)
+old findSharedParent -- 50 file paths x 265,655 ops/sec ±0.54% (94 runs sampled)
+new findSharedParent -- 50 file paths x 807,875 ops/sec ±1.13% (92 runs sampled)
